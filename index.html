@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HOME</title>
 <style>
     body {
         background-color: aqua;
@@ -16,9 +16,11 @@
     h2{
         color: rgb(42, 67, 89);
     }
-    .p1{
+    .p01{
         color:rgb(104, 141, 174);
         font-size: 25px;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .p02{
         color: rgb(26, 45, 21);
@@ -26,13 +28,39 @@
         font-size: 25px;
         font-family: Arial, Helvetica, sans-serif;
     }
-    .img01{width: 50px;
+    .img01{
+        width: 50px;
         height: auto;
         border-radius: 10px;
         display: block;
-        margin: 0 auto;
+        margin:  auto;
     }
-</style>
+    .img02{
+        width: 450px;
+        height: auto;
+        border-radius: 50px;
+        display: block;
+        margin: auto;
+    }
+    .table01{
+        border-color: blue;
+        border: 1px solid rgb(35, 156, 10);
+        width: 50%;
+    }
+    th{
+        background-color: rgb(17, 150, 12);
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        width: auto;
+    }
+    td{
+        border: 1px solid black;
+        font: arial;
+        font-size: 15px;
+        text-align: center;
+    }
+   </style>
 </head>
 <body>
     <h1>Página de anime </h1>
@@ -44,33 +72,24 @@
     </u>
     <div>
         <h2 id="marcador01">HOME</h2>
-        <p class="p1">representa el vacío emocional y la frialdad lógica de
-                      alguien criado sin afecto, solo para rendir al máximo nivel.
-        <img src="imagenes/ayanokoji.jpg" alt="estratejico" width="400px" srcset="">
-        <P class="P02">
+        <p class="p01">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                      Fugiat veniam magnam maxime! Alias, totam corporis aliquid consequatur deserunt sed ipsa ullam ipsum, numquam voluptatum magni quaerat obcaecati esse, consectetur placeat!
+        <img class="imag01" src="imagenes/tanjiro_kamado.jpeg" alt="" width="400px" srcset="">
+
+        <P class="P02">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam magnam maxime! Alias, totam corporis aliquid consequatur deserunt sed ipsa ullam ipsum, numquam voluptatum magni quaerat obcaecati esse, consectetur placeat!</P>
     <br>
     <div>
         <h2 id="marcador02">itadori</h2>
         <p> es un personaje que, a pesar de ser arrastrado por un destino que no eligió (ser recipiente de Sukuna),
-                      mantiene una energía pura y un sentido de la justicia que lo define. 
-        <img src="imagenes/itadori.jpg" alt="anime" width="400px">
-        <br>
-        
-        <p class="p02">loren ipsum dolor sit amet consectetur adipisicing elit. fugit voluptate
-            voluptatum unde. Dicta voluptatibus nemo delorum unde, sapiente magni fugiat
-            manima veniam maxime suscipit pariatur obcaecati maiores illo praesention ut.</p>
+            mantiene una energía pura y un sentido de la justicia que lo define. 
+        <img class="img02" src="/imagenes/itadori.jpeg" alt="anime" width="400px">
     </div> 
     <div>
-        <h2>keneki</h2>
-        <p>Kaneki es un joven que representa el conflicto interno de cambiar por la fuerza de las circunstancias.
-        Su transformación de humano a ghoul simboliza la batalla entre el deseo de mantener su humanidad y la necesidad de adaptarse a su nueva realidad.</p>
-        <img src="/imagenes/kaneki.jpg" alt="anime" width="400px"title="kaneki">
-    </div>
-    <div>
         <h2 id="marcador03">precios</h2>
-        <table border="1">
-            <caption>lista de precios</caption>
-            <tr>
+        <table class="table01" border="01"
+        <caption>lista de precios</caption>
+    <tr>
+    
                 <th>Item</th>
                 <th>detalle</th>
                 <th>V. unitario</th>
@@ -83,54 +102,40 @@
                 <td>1.200.000</td>
             </tr>
             <tr>
-                <td>2</td>
+                <td>02</td>
                 <td>portatil</td>
                 <td>1.700.000</td>
                 <td>1.700.000</td>
             </tr>
             <tr>
                 <td>03</td>
-                <td>impresora</td>
+                <td>impresora tinta</td>
                 <td>530.000</td>
-                <td>530-000</td>
+                <td>530.000</td>
             </tr>
-            <tr>
-                <td>04</td>
-                <td>xbox one</td>
-                <td>1.300.000</td>
-                <td>1.300.000</td>
-
+        <tr>
         </tbody>
         <tr>
-            <td colspan="3">total</td>
-            <td>5.250.000</td>
+             <td colspan="3">Total</td>
+             <td>$3.50.000</td>
         </tr>
-    </table>
-</div>
-<div>
-    <h2 id="marcador04">articulos</h2>
-    <p>loren ipsum dolor sit amet consectetur adipisicing elit. fugit voluptate
-            voluptatum unde. Dicta voluptatibus nemo delorum unde, sapiente magni fugiat
-            manima veniam maxime suscipit pariatur obcaecati maiores illo praesention ut.</p>
-    <table border="1" cellpadding="10" cellpadding="0"
-       <caption>imagenes de articulos</caption>
-       <thead>
-           <tr>
-              <th>articulo</th>
-              <th>imagen</th>
-              <th>descripcion</th>
-           </tr>
-       </thead>
-           <tr>
-              <td>Sukuna</td>
-              <td><img src="/imagenes/sukuna.jpg" alt="anime" width="400px"></td>
-              <td>es la representación de lo primordial, de lo destructivo y lo egoísta.
-                  no busca un objetivo noble ni se preocupa por las consecuencias de sus acciones.
-                  Vive para el caos y el disfrute de su poder absoluto.</td>
-           </tr>
-           <tr>
+    <table>
+    </div>
+    <div>
+        <h2 id="marcador04">articulos</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus ullam libero, modi eveniet similique neque eius molestias quo illum ratione nesciunt et temporibus enim non quibusdam maxime ad dolore molestiae.</p>
+        <table border="1" cellpadding="10" cellpadding="0">
+            <caption>imagenes de anime</caption>
+            <thead>
+                <tr>
+                    <th>animes</th>
+                    <th>imagen</th>
+                    <th> descripcion</th>
+                </tr>
+            </thead>
+            <tr>
               <td>keneki2</td>
-              <td><img src="/imagenes/kaneki2.jpg" alt="anime" width="400px"></td>
+              <td><img src="/imagenes/tokyo_kaneki.jpeg" alt="anime" width="400px"></td>
               <td>Se transforma de humano a ghoul simboliza la batalla entre el deseo de mantener su humanidad y la necesidad de adaptarse</td>
             </tr>
             <tr>
@@ -148,10 +153,12 @@
 
         </table>
     </div>
-    <p><a href="marcador01">página de inicio></a></p>
-
+    <p><a href="#marcador01">página de inicio></a></p>
 </body>
 </html>
+
+    
+              
              
 
 
